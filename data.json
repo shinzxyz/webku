@@ -6,7 +6,12 @@
       "type": "media"
     }
   ],
-  "scripts": [],
+  "scripts": [
+    {
+      "name": "BOTWA FA",
+      "link": "https://github.com/latesturl/HIRAGII"
+    }
+  ],
   "codes": [
     {
       "name": "BRAT",
