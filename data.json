@@ -16,6 +16,10 @@
     {
       "name": "Contoh Function",
       "code": "function hello() { console.log('Hello World'); }"
+    },
+    {
+      "name": "https://apikey.sazxofficial.web.id/api/imagecreator/pornhub?text1=${encodeURIComponent(text1)}&text2=${encodeURIComponent(text2)}",
+      "code": "hshs"
     }
   ]
 }
