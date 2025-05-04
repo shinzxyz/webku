@@ -6,7 +6,12 @@
       "type": "media"
     }
   ],
-  "scripts": [],
+  "scripts": [
+    {
+      "name": "ANYA XD",
+      "link": "https://script.anyaxd.my.ios/abcd.zip"
+    }
+  ],
   "codes": [
     {
       "name": "TTMP3",
