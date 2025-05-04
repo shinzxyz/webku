@@ -1,0 +1,21 @@
+{
+  "apis": [
+    {
+      "name": "Contoh API",
+      "endpoint": "https://api.example.com/data",
+      "type": "json"
+    }
+  ],
+  "scripts": [
+    {
+      "name": "Bot Telegram",
+      "link": "https://example.com/bot.js"
+    }
+  ],
+  "codes": [
+    {
+      "name": "Contoh Function",
+      "code": "function hello() { console.log('Hello World'); }"
+    }
+  ]
+}
