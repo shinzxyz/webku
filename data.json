@@ -6,12 +6,7 @@
       "type": "media"
     }
   ],
-  "scripts": [
-    {
-      "name": "Bot Telegram",
-      "link": "https://example.com/bot.js"
-    }
-  ],
+  "scripts": [],
   "codes": [
     {
       "name": "Contoh Function",
