@@ -16,6 +16,10 @@
     {
       "name": "TTMP3",
       "code": "case 'tiktokaudio':\n      {\n        if (!rpgUser[id]) return loginInfo(m, nyaw);\n        \n        if (!text) return mrh(example('https://vt.tiktok.com/zstctqrj/'));\n        if (!isUrl) return mrh(\"Masukkan URL video TikTok.\");\n        if (!decreaseLimit(id, global.minlimit)) return mrh(mess.limit)\n        reply(mess.wait);\n        try\n        {\n          await downloadTiktok(text, m, AnyaXD);\n        }\n        catch (e)\n        {\n          cpe(e);\n        }\n      }\n      break;"
+    },
+    {
+      "name": "BRAT",
+      "code": "case 'brat': {\n  if(!text) return mrh(example('ler'))\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
     }
   ]
 }
