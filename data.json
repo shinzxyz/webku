@@ -4,6 +4,11 @@
       "name": "Contoh API",
       "endpoint": "https://api.example.com/data",
       "type": "json"
+    },
+    {
+      "name": "BRAT",
+      "endpoint": "https://api.nekorinn.my.id/maker/brat-v2?text=",
+      "type": "media"
     }
   ],
   "scripts": [
