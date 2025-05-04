@@ -7,10 +7,5 @@
     }
   ],
   "scripts": [],
-  "codes": [
-    {
-      "name": "Contoh Function",
-      "code": "function hello() { console.log('Hello World'); }"
-    }
-  ]
+  "codes": []
 }
