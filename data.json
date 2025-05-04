@@ -1,5 +1,11 @@
 {
-  "apis": [],
+  "apis": [
+    {
+      "name": "Brat",
+      "endpoint": "https://api.nekorinn.my.id/maker/brat-v2?text=hello im yoedzx",
+      "type": "media"
+    }
+  ],
   "scripts": [
     {
       "name": "Bot Telegram",
