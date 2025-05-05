@@ -2,20 +2,11 @@
   "apis": [
     {
       "name": "Brat",
-      "endpoint": "https://api.nekorinn.my.id/maker/brat-v2?text=hello im yoedzx",
+      "endpoint": "https://api.nekorinn.my.id/brat-v2?text=hi im yoedz",
       "type": "media"
     }
   ],
-  "scripts": [
-    {
-      "name": "BOTWA FA",
-      "link": "https://github.com/latesturl/HIRAGII"
-    }
-  ],
-  "codes": [
-    {
-      "name": "BRAT",
-      "code": "case 'brat': {\n  if(!text) return mrh(example('ler'))\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    }
-  ]
+  "scripts": [],
+  "codes": [],
+  "music": "https://example.com/custom-song.mp3"
 }
