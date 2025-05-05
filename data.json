@@ -27,30 +27,6 @@
       "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
     },
     {
-      "name": "BRAT",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    },
-    {
-      "name": "BRAT",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    },
-    {
-      "name": "BRAT",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    },
-    {
-      "name": "BRAT",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    },
-    {
-      "name": "Brat",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    },
-    {
-      "name": "Brat",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
-    },
-    {
       "name": "Brat",
       "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
     },
