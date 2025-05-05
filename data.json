@@ -1,7 +1,7 @@
 {
   "apis": [
     {
-      "name": "Brat",
+      "name": "BRAT",
       "endpoint": "https://api.nekorinn.my.id/brat-v2?text=hi im yoedz",
       "type": "media"
     }
