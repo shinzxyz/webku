@@ -1,11 +1,5 @@
 {
-  "apis": [
-    {
-      "name": "BRAT",
-      "endpoint": "https://api.nekorinn.my.id/brat-v2?text=hi im yoedz",
-      "type": "media"
-    }
-  ],
+  "apis": [],
   "scripts": [],
   "codes": [],
   "music": "https://files.catbox.moe/cwsuz2.mp3"
