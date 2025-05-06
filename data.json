@@ -1,6 +1,12 @@
 {
   "apis": [],
   "scripts": [],
-  "codes": [],
+  "codes": [
+    {
+      "name": "BRAT",
+      "code": "async function bratBackup(text, m, AnyaXD)\n    {\n      const urls = [`https://api.nekorinn.my.id/maker/brat-v2?text=${encodeURIComponent(text)}`, `https://www.ikyiizyy.my.id/api/tools/bratgenerator?text=${encodeURIComponent(text)}`, `https://www.laurine.site/api/generator/brat?text=${encodeURIComponent(text)}`, `https://jerofc.my.id/api/brat?text=${encodeURIComponent(text)}`, `https://api.crafters.biz.id/maker/brat?text=${encodeURIComponent(text)}`, `https://skyzxu-brat.hf.space/brat?text=${encodeURIComponent(text)}`, `https://vor-apis.biz.id/api/bratv1?q==${encodeURIComponent(text)}`, `https://api.ownblox.biz.id/api/brat?text=${encodeURIComponent(text)}`, `https://api.agungny.my.id/api/bratv1?q=${encodeURIComponent(text)}`, `https://api.siputzx.my.id/api/m/brat?text=${encodeURIComponent(text)}&isVideo=false&delay=500`, `https://clairity-nine.vercel.app/api/brat?text=${encodeURIComponent(text)}`, `https://apikey.moontech.web.id/api/tools/bratgenerator?text=${encodeURIComponent(text)}`];\n      for (const url of urls)\n      {\n        try\n        {\n          await AnyaXD.sendImageAsSticker(m.chat, url, m,\n          {\n            packname: global.packname,\n            author: global.author\n          });\n          return; // stop jika berhasil\n        }\n        catch (err)\n        {\n          console.error(`Gagal di API: ${url}`, err.message);\n        }\n      }\n      throw new Error('Semua API gagal');\n    }",
+      "category": "function"
+    }
+  ],
   "music": "https://files.catbox.moe/cwsuz2.mp3"
 }
