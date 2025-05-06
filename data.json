@@ -13,6 +13,11 @@
     {
       "name": "EXAMPLE",
       "code": "example"
+    },
+    {
+      "name": "case",
+      "code": "case",
+      "category": "case"
     }
   ],
   "music": "https://files.catbox.moe/cwsuz2.mp3"
