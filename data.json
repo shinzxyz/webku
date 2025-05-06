@@ -9,6 +9,10 @@
     {
       "name": "BRATVID",
       "code": "//Code by Yoedzx\n\nasync function bratVidBackup(text, m, AnyaXD)\n    {\n      const apis = [`https://api.hiuraa.my.id/maker/bratvid?text=${encodeURIComponent(text)}`, `https://api.ryzendesu.vip/api/image/brat/animated?text=${encodeURIComponent(text)}`, `https://restapi.rizk.my.id/bardvidio?text=${encodeURIComponent(text)}&apikey=free`, `https://api.nekorinn.my.id/maker/bratvid?text=${encodeURIComponent(text)}`, `https://skyzxu-brat.hf.space/brat-animated?text=${encodeURIComponent(text)}`];\n      for (let url of apis)\n      {\n        try\n        {\n          await AnyaXD.sendVideoAsSticker(m.chat, url, m,\n          {\n            packname: global.packname,\n            author: global.author\n          });\n          return;\n        }\n        catch (err)\n        {\n          console.log(`Gagal: ${url}`, err.message);\n        }\n      }\n      throw new Error('Semua API bratvid gagal');\n    }\n\ncase 'bratvid':\n      case 'bratgif':\n      {\n        \n        if (!text) return reply(example(`halo guys samal aja`));\n        reply(mess.wait);\n        bratVidBackup(text, m, AnyaXD).catch(() => reply(mess.error));\n      }\n      break;"
+    },
+    {
+      "name": "examplw",
+      "code": "example"
     }
   ],
   "music": "https://files.catbox.moe/cwsuz2.mp3"
