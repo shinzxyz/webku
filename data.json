@@ -4,7 +4,7 @@
   "codes": [
     {
       "name": "BRAT",
-      "code": "case 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
+      "code": "//Code by Yoedzx\n\ncase 'brat': {\n  if(!text) return reply('masukan text nya ler')\n  AnyaXD.sendImageAsSticker(from, `https://brat.caliphdev.com/api/brat?text=${encodeURIComponent(text)}`, m, { packname: global.NamaOwner, author: global.namabot})\n}\nbreak"
     },
     {
       "name": "BRATVID",
