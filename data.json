@@ -11,6 +11,11 @@
       "name": "BRAT",
       "code": "case 'brat':\n      {\n        if (!text) return mrh(example(`halo iki epep`));\n        reply(mess.wait);\n        bratBackup(text, m, AnyaXD).catch((e) =>\n        {\n          console.error(e.message);\n          reply(mess.error);\n        });\n      }\n      break;",
       "category": "case"
+    },
+    {
+      "name": "WAIFU NEWS",
+      "code": "import fetch from 'node-fetch'\n\nconst handler = async (m, { conn, text }) => {\n  try {\n    const res = await fetch('https://fgsi1-restapi.hf.space/api/information/mywaifulist/news')\n    const json = await res.json()\n\n    if (!json.status || !json.data) return m.reply('Gagal mengambil data berita.')\n\n    let newsList = json.data.map((item, index) => {\n      return `*${index + 1}. ${item.title}*\\n${item.description}\\n_Published: ${item.pubDate.split('T')[0]}_\\n[Read More](${item.url})`\n    }).join('\\n\\n')\n\n    await conn.sendMessage(m.chat, {\n      text: `*📢 MyWaifuList News*\\n\\n${newsList}`,\n      contextInfo: {\n        mentionedJid: [m.sender],\n        externalAdReply: {\n          title: 'Waifu News Center',\n          body: 'Latest news from MyWaifuList',\n          thumbnailUrl: 'https://files.catbox.moe/wv9mfj.jpg',\n          sourceUrl: 'https://fgsi1-restapi.hf.space',\n          mediaType: 1,\n          renderLargerThumbnail: true,\n          showAdAttribution: false\n        },\n        isForwarded: true,\n        forwardedNewsletterMessageInfo: {\n          newsletterName: \"MyWaifuList News - Fitur By Takashi\",\n          newsletterJid: `120363414329890254@newsletter`\n        }\n      }\n    }, { quoted: m })\n\n  } catch (e) {\n    m.reply(`Gagal mengambil berita: ${e}`)\n  }\n}\n\nhandler.help = ['waifunews']\nhandler.tags = ['anime']\nhandler.command = ['waifunews']\nhandler.limit = true\n\nexport default handler",
+      "category": "plugin"
     }
   ],
   "music": "https://files.catbox.moe/cwsuz2.mp3"
