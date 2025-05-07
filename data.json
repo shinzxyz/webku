@@ -13,14 +13,5 @@
       "category": "case"
     }
   ],
-  "music": "https://files.catbox.moe/cwsuz2.mp3",
-  "social": [
-    { "name": "WhatsApp", "url": "https://wa.me/6281234567890", "icon": "fab fa-whatsapp" },
-    { "name": "Instagram", "url": "https://instagram.com/sychedev", "icon": "fab fa-instagram" },
-    { "name": "Facebook", "url": "https://facebook.com/sychedev", "icon": "fab fa-facebook" },
-    { "name": "YouTube", "url": "https://youtube.com/@sychedev", "icon": "fab fa-youtube" },
-    { "name": "Telegram", "url": "https://t.me/sychedev", "icon": "fab fa-telegram" },
-    { "name": "GitHub", "url": "https://github.com/sychyy", "icon": "fab fa-github" },
-    { "name": "Twitter", "url": "https://twitter.com/sychedev", "icon": "fab fa-twitter" }
-  ]
+  "music": "https://files.catbox.moe/cwsuz2.mp3"
 }
