@@ -13,5 +13,14 @@
       "category": "case"
     }
   ],
-  "music": "https://files.catbox.moe/cwsuz2.mp3"
+  "music": "https://files.catbox.moe/cwsuz2.mp3",
+  "social": [
+        { name: 'WhatsApp', url: 'https://wa.me/yournumber', icon: 'fab fa-whatsapp' },
+        { name: 'Instagram', url: 'https://instagram.com/yourprofile', icon: 'fab fa-instagram' },
+        { name: 'Facebook', url: 'https://facebook.com/yourpage', icon: 'fab fa-facebook' },
+        { name: 'YouTube', url: 'https://youtube.com/yourchannel', icon: 'fab fa-youtube' },
+        { name: 'Telegram', url: 'https://t.me/yourusername', icon: 'fab fa-telegram' },
+        { name: 'GitHub', url: 'https://github.com/yourusername', icon: 'fab fa-github' },
+        { name: 'Twitter', url: 'https://twitter.com/yourhandle', icon: 'fab fa-twitter' }
+  ]
 }
