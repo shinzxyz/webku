@@ -4,6 +4,11 @@
       "name": "YANDERE <!ɴsғᴡ>",
       "endpoint": "https://api.nekorinn.my.id/nsfw/yandere-random",
       "type": "media"
+    },
+    {
+      "name": "REMINI",
+      "endpoint": "https://api.siputzx.my.id/api/iloveimg/upscale?image=https://files.catbox.moe/3ktvfp.jpg",
+      "type": "media"
     }
   ],
   "scripts": [],
