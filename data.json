@@ -9,6 +9,11 @@
       "name": "REMINI",
       "endpoint": "https://api.siputzx.my.id/api/iloveimg/upscale?image=https://files.catbox.moe/3ktvfp.jpg",
       "type": "media"
+    },
+    {
+      "name": "BRATVID",
+      "endpoint": "https://api.nekorinn.my.id/maker/bratvid?text=yuda ganteng banget",
+      "type": "media"
     }
   ],
   "scripts": [],
