@@ -1,5 +1,11 @@
 {
-  "apis": [],
+  "apis": [
+    {
+      "name": "YANDERE",
+      "endpoint": "https://api.nekorinn.my.id/nsfw/yandere-random",
+      "type": "media"
+    }
+  ],
   "scripts": [],
   "codes": [
     {
