@@ -19,6 +19,11 @@
       "name": "FLUX IMAGE",
       "endpoint": "https://api.nekorinn.my.id/ai-img/flux-v4?text=buatlah+logo+yang+bernama+yoedzx",
       "type": "media"
+    },
+    {
+      "name": "TIKTOK VIDEO",
+      "endpoint": "https://api.yupradev.biz.id/api/downloader/tiktokvideo?url=https%3A%2F%2Fvt.tiktok.com%2FZSjhVuSYx%2F",
+      "type": "json"
     }
   ],
   "scripts": [
