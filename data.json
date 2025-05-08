@@ -24,6 +24,11 @@
       "name": "TIKTOK VIDEO",
       "endpoint": "https://api.yupradev.biz.id/api/downloader/tiktokvideo?url=https%3A%2F%2Fvt.tiktok.com%2FZSjhVuSYx%2F",
       "type": "json"
+    },
+    {
+      "name": "TIKTOK SLIDE",
+      "endpoint": "https://api.yupradev.biz.id/api/downloader/tiktokfoto?url=https%3A%2F%2Fvt.tiktok.com%2FZShS6eaEm%2F",
+      "type": "json"
     }
   ],
   "scripts": [
