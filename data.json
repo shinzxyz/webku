@@ -14,6 +14,11 @@
       "name": "BRATVID",
       "endpoint": "https://api.nekorinn.my.id/maker/bratvid?text=yuda ganteng banget",
       "type": "media"
+    },
+    {
+      "name": "FLUX IMAGE",
+      "endpoint": "https://api.nekorinn.my.id/ai-img/flux-v4?text=buatlah+logo+yang+bernama+yoedzx",
+      "type": "media"
     }
   ],
   "scripts": [
